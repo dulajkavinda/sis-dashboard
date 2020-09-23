@@ -32,7 +32,7 @@ import {
 } from "reactstrap";
 export default class Dashboard extends Component {
   componentDidMount() {
-    document.body.style.background = "#acacac";
+    document.body.style.background = "#d6d6d6";
   }
 
   render() {
@@ -43,16 +43,20 @@ export default class Dashboard extends Component {
           <Collapse navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="https://voice-front.herokuapp.com/">
+                  Oral Interview
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/components/">Expertise</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/components/">Technical Interview</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Personality Prediction</NavLink>
+                <NavLink href="https://client-app0023.herokuapp.com">
+                  Personality Prediction
+                </NavLink>
               </NavItem>
               <NavItem></NavItem>
             </Nav>
@@ -81,10 +85,7 @@ export default class Dashboard extends Component {
               <span style={{ color: "yellowgreen" }}>I</span>NTERVIEW{" "}
               <span style={{ color: "yellowgreen" }}>S</span>YSTEM
             </h1>
-            <span
-              className="lead"
-              style={{ color: "#f3f0e4", fontWeight: "bold" }}
-            >
+            <span className="lead" style={{ color: "", fontWeight: "bold" }}>
               SIS is one such software/tool which can automate the traditional
               interviewing process using modern<br></br> natural language
               processing techniques and deep learning applications.
