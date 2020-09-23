@@ -31,11 +31,15 @@ import {
   Jumbotron,
 } from "reactstrap";
 export default class Dashboard extends Component {
+  componentDidMount() {
+    document.body.style.background = "#acacac";
+  }
+
   render() {
     return (
       <div>
         <Navbar color="dark" dark expand="md">
-          <NavbarBrand href="/">Reccomendation System</NavbarBrand>
+          <NavbarBrand href="/">SIS System</NavbarBrand>
           <Collapse navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
@@ -54,76 +58,45 @@ export default class Dashboard extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        <Jumbotron>
-          <h1 className="display-3">SMART INTERVIEW SYSTEM</h1>
-          <p className="lead">
-            This is a simple hero unit, a simple Jumbotron-style component for
-            calling extra attention to featured content or information.
-          </p>
-          <hr className="my-2" />
-          <p>
-            It uses utility classes for typography and spacing to space content
-            out within the larger container.
-          </p>
-          <p className="lead">
-            <Button color="primary">Learn More</Button>
-          </p>
-        </Jumbotron>
-        <Container style={{ marginTop: 200 }}>
-          <Row>
-            <Col>
-              {" "}
-              <Card
-                body
-                inverse
-                style={{ height: 200 }}
-                style={{ backgroundColor: "#333", borderColor: "#333" }}
-              >
-                <CardTitle>Special Title Treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button color="success">Open</Button>
-              </Card>
-            </Col>
-            <Col>
-              {" "}
-              <Card body inverse color="primary" style={{ height: 200 }}>
-                <CardTitle>Special Title Treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button color="success">Open</Button>
-              </Card>
-            </Col>
-            <Col>
-              {" "}
-              <Card body inverse color="warning" style={{ height: 200 }}>
-                <CardTitle>Special Title Treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button color="success">Open</Button>
-              </Card>
-            </Col>
-            <Col>
-              {" "}
-              <Card body inverse color="info" style={{ height: 200 }}>
-                <CardTitle style={{ fontWeight: "bold" }}>
-                  Personality Trait Prediction
-                </CardTitle>
-                <CardText>
-                  - Personality Trait Prediction <br /> - CV Ranking <br /> - CV
-                  Data Extraction
-                </CardText>
-                <Button color="success">Open</Button>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            height: "100%",
+            marginTop: "200px",
+          }}
+        >
+          <div style={{ justifyContent: "center", alignItems: "center" }}>
+            <h1
+              className="display-3"
+              style={{
+                fontWeight: "bold",
+                color: "ghostwhite",
+                fontStyle: "initial",
+              }}
+            >
+              <span style={{ color: "yellowgreen" }}>S</span>MART{" "}
+              <span style={{ color: "yellowgreen" }}>I</span>NTERVIEW{" "}
+              <span style={{ color: "yellowgreen" }}>S</span>YSTEM
+            </h1>
+            <span
+              className="lead"
+              style={{ color: "#f3f0e4", fontWeight: "bold" }}
+            >
+              SIS is one such software/tool which can automate the traditional
+              interviewing process using modern<br></br> natural language
+              processing techniques and deep learning applications.
+            </span>
+            <hr className="my-2" />
+            <p></p>
+            <p className="lead">
+              <Button color="primary">Learn More</Button>
+            </p>
+          </div>
+        </div>
+        <Container style={{ marginTop: 200 }}></Container>
       </div>
     );
   }
