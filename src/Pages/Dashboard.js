@@ -43,18 +43,34 @@ export default class Dashboard extends Component {
           <Collapse navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink href="https://voice-front.herokuapp.com/">
+                <NavLink
+                  href="https://voice-front.herokuapp.com/"
+                  target="_blank"
+                >
                   Oral Interview
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Expertise</NavLink>
+                <NavLink
+                  href="https://expert-area.herokuapp.com/"
+                  target="_blank"
+                >
+                  Expertise
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Technical Interview</NavLink>
+                <NavLink
+                  href="https://written-test.herokuapp.com/"
+                  target="_blank"
+                >
+                  Technical Interview
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://client-app0023.herokuapp.com">
+                <NavLink
+                  href="https://client-app0023.herokuapp.com"
+                  target="_blank"
+                >
                   Personality Prediction
                 </NavLink>
               </NavItem>
