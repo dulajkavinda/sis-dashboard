@@ -38,46 +38,6 @@ export default class Dashboard extends Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md">
-          <NavbarBrand href="/">SIS System</NavbarBrand>
-          <Collapse navbar>
-            <Nav className="mr-auto" navbar>
-              <NavItem>
-                <NavLink
-                  href="https://voice-front.herokuapp.com/"
-                  target="_blank"
-                >
-                  Oral Interview
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://expert-area.herokuapp.com/"
-                  target="_blank"
-                >
-                  Expertise
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://written-test.herokuapp.com/"
-                  target="_blank"
-                >
-                  Technical Interview
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://client-app0023.herokuapp.com"
-                  target="_blank"
-                >
-                  Personality Prediction
-                </NavLink>
-              </NavItem>
-              <NavItem></NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
         <div
           style={{
             display: "flex",
