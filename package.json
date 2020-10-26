@@ -21,7 +21,11 @@
     "react-loader-spinner": "^3.1.14",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "reactstrap": "^8.6.0"
+    "reactstrap": "^8.6.0",
+    "recharts": "^1.8.5",
+    "uuid": "^8.3.0",
+    "mdbreact": "^4.27.0",
+    "axios": "^0.20.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -10,6 +10,13 @@ import WrittenExam from './Pages/written.exam.list';
 import AddQuestion from './Pages/written.add.question';
 import Done from './Pages/written.done';
 
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Questions from "./Pages/Questions";
+import PersonalInfo from "./Pages/PersonalInfo";
+import AddJob from "./Pages/AddJob";
+import CandidateList from "./Pages/CandidateList";
+
 import SortedList from "./Pages/expertise.sorted.list";
 
 import './App.css';
@@ -26,7 +33,13 @@ function App() {
         <Route path="/written-test/exam-list" component={WrittenExam}></Route>
         <Route path="/written-test/exam/:candidate/:interviewId" component={ExamView}></Route>
         <Route path="/written-test/add-question" component={AddQuestion}></Route>
-      </Router>
+        <Route path="/about" component={About}></Route>
+        <Route path="/questions" component={Questions}></Route>
+        <Route path="/personal" component={PersonalInfo}></Route>
+        <Route path="/addjob" component={AddJob}></Route>
+        <Route path="/candidatelist" component={CandidateList}></Route>
+        <Route path="/candidatedetails" component={CandidateDetails}></Route>
+        </Router>
     </div>
   );
 }
