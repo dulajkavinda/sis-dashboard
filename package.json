@@ -1,15 +1,30 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@coreui/coreui": "^3.3.0",
     "@coreui/react": "^3.3.0",
+=======
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.13.4",
+    "node": "12.16.1"
+  },
+  "dependencies": {
+    "@coreui/coreui": "^3.3.0",
+    "@coreui/react": "^3.3.0",
+    "@material-ui/core": "^4.11.0",
+>>>>>>> 8376f27f879eba2e4c75e57688692464a3e1837a
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.2",
     "react": "^16.13.1",
+<<<<<<< HEAD
     "react-alert": "^7.0.2",
     "react-alert-template-basic": "^1.0.0",
     "react-animated-text": "^0.1.4",
@@ -21,6 +36,19 @@
     "react-scripts": "3.4.3",
     "react-sidebar": "^3.0.2",
     "react-sidemenu": "^1.1.0"
+=======
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-loader-spinner": "^3.1.14",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "reactstrap": "^8.6.0",
+    "recharts": "^1.8.5",
+    "uuid": "^8.3.0",
+    "mdbreact": "^4.27.0",
+    "axios": "^0.20.0"
+>>>>>>> 8376f27f879eba2e4c75e57688692464a3e1837a
   },
   "scripts": {
     "start": "react-scripts start",

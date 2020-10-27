@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+<<<<<<< HEAD
+=======
+  margin-left: 10px;
+  margin-right: 10px;
+>>>>>>> 8376f27f879eba2e4c75e57688692464a3e1837a
 }
 
 .App-logo {
@@ -36,3 +41,12 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
+=======
+
+.modal_title{
+  padding-top: 8px;
+  margin-left: 8px;
+  font-size: 30px;
+}
+>>>>>>> 8376f27f879eba2e4c75e57688692464a3e1837a
