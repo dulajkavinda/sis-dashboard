@@ -24,7 +24,11 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="/" style={{ fontSize: 20 }}>
+              <a
+                className="nav-link"
+                href="/allInterviews"
+                style={{ fontSize: 20 }}
+              >
                 Interviews <BiUserVoice />
               </a>
             </li>
