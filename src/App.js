@@ -13,6 +13,7 @@ import AddQuestion from "./Pages/written.add.question";
 import Done from "./Pages/written.done";
 
 import Home from "./Pages/Home";
+import Dashboard from "./Pages/Dashboard";
 import About from "./Pages/About";
 import Questions from "./Pages/Questions";
 import PersonalInfo from "./Pages/PersonalInfo";
@@ -53,7 +54,9 @@ function App() {
           path="/written-test/add-question"
           component={AddQuestion}
         ></Route>
+        <Route path="/home" component={Home}></Route>
         <Route path="/about" component={About}></Route>
+        <Route path="/dashboard" component={Dashboard}></Route>
         <Route path="/questions" component={Questions}></Route>
         <Route path="/personal" component={PersonalInfo}></Route>
         <Route path="/addjob" component={AddJob}></Route>
